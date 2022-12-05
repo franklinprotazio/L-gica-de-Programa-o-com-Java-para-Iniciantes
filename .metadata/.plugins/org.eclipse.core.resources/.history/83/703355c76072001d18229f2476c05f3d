@@ -1,0 +1,10 @@
+package bibliotecapropria;
+
+public class BibliotecaPropria {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

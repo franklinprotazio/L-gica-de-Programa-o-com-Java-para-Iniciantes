@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+//		Integer numeroDigitadoPeloUsuario = multiplicando(scanner);
+//		
+//		imprimirTabuada(scanner);
+		
+//		
+		Integer numeroDigitadoPeloUsuario = scanner.nextInt();
+		System.out.println("Digite um numero");
+		
+		Integer multiplicando = 1;
+//		
+//		for(int i = 0; i < 10; i++) {
+//			System.out.println(i + multiplicando + numeroDigitadoPeloUsuario);
+//		}
+//				
+		scanner.close();
+	}
+	
+	
+
+
+}

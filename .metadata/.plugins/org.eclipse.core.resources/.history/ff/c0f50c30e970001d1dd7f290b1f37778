@@ -1,0 +1,24 @@
+package encapsulamento;
+
+public class Cliente {
+
+	String nome;
+	
+//	String primeiroNome;
+//	
+//	String ultimoNome;
+	
+	String telefone;
+	
+	String getNome() {
+		return nome;
+	}
+	
+	String setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	String getTelefone() {
+		return telefone;
+	}
+}

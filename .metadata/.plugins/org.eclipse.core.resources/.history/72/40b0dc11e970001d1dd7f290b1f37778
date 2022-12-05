@@ -1,0 +1,12 @@
+package encapsulamento;
+
+public class Cliente {
+
+	String nome;
+	
+//	String primeiroNome;
+//	
+//	String ultimoNome;
+	
+	String telefone;
+}

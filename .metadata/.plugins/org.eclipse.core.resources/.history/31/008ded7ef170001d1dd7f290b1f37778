@@ -1,0 +1,24 @@
+package exercicio3;
+
+public class Pedido {
+
+	Integer codigo;
+	
+	Double subtotal;
+	
+	Integer desconto;
+	
+	Double total;
+	
+	Integer getCodigo() {
+		return codigo;
+	}
+	
+	void setCodigo(String codigo) {
+		String[] codigoDoPedido = codigo.split(" ");
+		codigo = codigoDoPedido[0];
+		subtotal = codigoDoPedido[1];
+		
+	}
+	
+}

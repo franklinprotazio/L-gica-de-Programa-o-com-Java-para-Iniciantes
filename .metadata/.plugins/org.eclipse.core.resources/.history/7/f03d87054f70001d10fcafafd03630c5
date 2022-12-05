@@ -1,0 +1,15 @@
+package metodoinstancia;
+
+public class MetodoInstancia {
+
+	public static void main(String[] args) {
+		Cliente cliente = new Cliente();
+		cliente.primeiroNome = "Franklin";
+		cliente.ultimoNome = "Protazio";
+		cliente.telefone = "110000000";
+		cliente.email = "franklin@protazio.com.br";
+
+		System.out.println("Nome cliente: " + cliente.obterNomeCompleto() + ", DDD: " + cliente.obterDDD());
+	}
+
+}

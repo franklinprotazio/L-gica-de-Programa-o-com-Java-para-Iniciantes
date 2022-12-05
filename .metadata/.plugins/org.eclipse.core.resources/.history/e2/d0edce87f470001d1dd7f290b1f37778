@@ -1,0 +1,18 @@
+package exercicio3;
+
+public class Pedido {
+	
+	Integer codigo;
+	
+	Double subtotal;
+	
+	Integer desconto;
+	
+	Double total;
+	
+	Integer obterCodigo() {
+		Integer dadosPedido = codigo;
+		return dadosPedido;
+	}
+		
+}

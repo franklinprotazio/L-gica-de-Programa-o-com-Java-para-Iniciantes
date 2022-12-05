@@ -1,0 +1,18 @@
+package exercicio3;
+
+public class Pedido {
+	
+	static final Integer DESCONTO = 20;
+
+	Integer codigo;
+	
+	Double subtotal;
+	
+	Double total;
+	
+	Double calcularDesconto() {
+		Double totalDesconto = subtotal * DESCONTO / 100;
+		return totalDesconto;
+	}
+	
+}

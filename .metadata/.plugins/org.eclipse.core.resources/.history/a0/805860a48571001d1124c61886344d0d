@@ -1,0 +1,19 @@
+package escritaarquivos;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
+public class EscritaArquivos {
+
+	public static void main(String[] args) {
+		ArrayList<String> linhas = new ArrayList<String>();
+		linhas.add("Linha um");
+		
+		Path arquivo = Paths.get("D:/Java/aula/arquivo.txt");
+		
+		Files.write(arquivo, linhas);
+	}
+
+}

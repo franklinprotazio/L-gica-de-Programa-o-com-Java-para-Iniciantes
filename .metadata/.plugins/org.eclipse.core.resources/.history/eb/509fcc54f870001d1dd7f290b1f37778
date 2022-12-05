@@ -1,0 +1,24 @@
+package exercicio3;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+
+		Pedido pedido = new Pedido();
+		
+		pedido.codigo = 10;
+		
+		pedido.desconto = 20;
+		
+		pedido.subtotal = 150.0;
+		
+//		pedido.total = 100.0;
+		
+		System.out.println("Codigo do pedido: " + pedido.getCodigo());
+		System.out.println("Desconto do pedido: " + pedido.getDesconto());
+		System.out.println("Subtotal: " + pedido.getSubtotal());
+		System.out.println("Total: " + pedido.getTotal(null));
+				
+	}
+
+}

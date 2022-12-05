@@ -1,0 +1,9 @@
+package exercicio09;
+
+public class Produto {
+	
+	String nome;
+	
+	Integer quantidadeEstoque;
+
+}

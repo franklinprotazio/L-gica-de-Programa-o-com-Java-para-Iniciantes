@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CursoLogicaCapitulo10/src/escritadados&apos; to &apos;escritaarquivos&apos;" description="Rename resource &apos;escritadados&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/escritadados" name="escritaarquivos" stamp="1669904476578" updateReferences="true"/>
+</session>

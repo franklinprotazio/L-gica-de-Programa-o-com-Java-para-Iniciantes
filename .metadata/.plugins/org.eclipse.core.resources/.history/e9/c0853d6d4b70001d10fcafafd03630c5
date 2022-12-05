@@ -1,0 +1,9 @@
+package metodoinstancia;
+
+public class MetodoInstancia {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,69 @@
+package exercicio3;
+
+public class Pedido {
+	
+	Integer codigo;
+	
+	Double subtotal;
+	
+	Integer desconto;
+	
+//	Double total;
+	
+	Integer obterCodigo() {
+		Integer dadosPedido = codigo;
+		return dadosPedido;
+	}
+	
+	Double obterSubtoal() {
+		Double subtotalDoPedido = subtotal;
+		return subtotalDoPedido;
+	}
+	
+	Integer obterDesconto() {
+		Integer descontoAplicado = desconto;
+		return descontoAplicado;
+	}
+	
+	Double obterTotal(Double total) {
+		Double totalDoPedido = total;
+		return totalDoPedido;
+	}
+
+	Integer getCodigo() {
+		return codigo;
+	}
+
+	void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+
+	Double getSubtotal() {
+		return subtotal;
+	}
+
+	void setSubtotal(Double subtotal) {
+		this.subtotal = subtotal;
+	}
+
+	Integer getDesconto() {
+		return desconto;
+	}
+
+	void setDesconto(Integer desconto) {
+		this.desconto = desconto;
+	}
+
+	Double getTotal(Double total) {
+		total = this.subtotal - this.desconto;
+		
+		return total;
+	}
+
+//	void setTotal(Double total) {
+//		this.total = total;
+//	}
+		
+	
+	
+}

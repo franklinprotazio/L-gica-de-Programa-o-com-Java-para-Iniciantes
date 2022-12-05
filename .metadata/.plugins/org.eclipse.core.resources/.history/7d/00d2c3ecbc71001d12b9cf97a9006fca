@@ -1,0 +1,41 @@
+package exercicio01;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) throws IOException {
+		Scanner scanner = new Scanner(System.in);
+
+		ArrayList<String> linhas = new ArrayList<String>();
+		
+		for(int i = 0; i < 5; i++) {
+			System.out.print("Jogador " + i + ": ");
+			String nome = scanner.nextLine();
+			
+			linhas.add(nome);
+		}
+		
+
+//		int i = 0;
+//		while (i < 10);{
+//			System.out.print("Tarefa " + i + ": ");
+//			String tarefa = scanner.nextLine();
+//
+//			linhas.add(tarefa);
+//			i++;
+//
+//		}
+
+		Path arquivo = Paths.get("D:/Java/capitulo10/exercicio01/arquivo.txt");
+		Files.write(arquivo, linhas);
+
+		scanner.close();
+	}
+
+}

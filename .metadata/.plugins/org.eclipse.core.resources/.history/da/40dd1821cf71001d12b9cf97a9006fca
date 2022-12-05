@@ -1,0 +1,14 @@
+package leituraarquivos;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class LeituraArquivos {
+
+	public static void main(String[] args) {
+		Path arquivo = Paths.get("D:/Java/aula/arquivo.txt");
+		Files.readAllLines(path);
+	}
+
+}

@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Digite um numero ");
+		Integer numeroDigitadoPeloUsuario = scanner.nextInt();
+//
+//		Integer multiplicando = 1;
+
+//		for (int i = 0; i <= 10; i++) {
+//			System.out.println(numeroDigitadoPeloUsuario + " x " + i + " = " + (numeroDigitadoPeloUsuario * i));
+//		}
+
+		multiplicador(numeroDigitadoPeloUsuario, 0);
+
+		scanner.close();
+	}
+
+//	static void imprimirTabuada(Scanner scanner, Integer numero) {
+//		multiplicador(n0);
+//
+//	}
+
+	static void multiplicador(Integer numeroDigitadoPeloUsuario , Integer numero) {
+
+		System.out.println(numeroDigitadoPeloUsuario + " x " + numero + " = " + numeroDigitadoPeloUsuario * numero);
+		
+		if (numero < 10) {
+			multiplicador(numeroDigitadoPeloUsuario, ++numero);
+			
+		}
+	}
+
+//	static void multiplicando(Scanner scanner) {
+//		System.out.print("Digite um numero ");
+//		Integer multiplicando = scanner.nextInt();
+//	}
+
+}

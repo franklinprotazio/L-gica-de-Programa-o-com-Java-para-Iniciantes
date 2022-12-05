@@ -1,0 +1,14 @@
+package primeiraclasse;
+
+public class PrimeiraClasse {
+	
+	public static void main(String[] args) {
+		Produto produto = new Produto();
+		
+	}
+	
+	static void exibirQuantidadeEmEstoque(Produto produto) {
+		System.out.println("Quantidade em estoque: " + produto.quantidade);
+	}
+
+}

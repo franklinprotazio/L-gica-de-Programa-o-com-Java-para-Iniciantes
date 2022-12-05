@@ -1,0 +1,14 @@
+
+public class Recursividade {
+
+	public static void main(String[] args) {
+		String[] alunos = new String[] {"Franklin", "Mady", "Bernardo"};
+		
+		interarNomes(alunos, 0);
+	}
+
+	static void interarNomes(String [] alunos, Integer i) {
+		System.out.println("Alunos: " + alunos[i]);
+	}
+	
+}

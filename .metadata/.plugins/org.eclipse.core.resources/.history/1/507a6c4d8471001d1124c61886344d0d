@@ -1,0 +1,13 @@
+package escritaarquivos;
+
+import java.util.ArrayList;
+
+public class EscritaArquivos {
+
+	public static void main(String[] args) {
+		ArrayList<String> Linhas = new ArrayList</String>
+		
+//		Files.write(path, lines);
+	}
+
+}

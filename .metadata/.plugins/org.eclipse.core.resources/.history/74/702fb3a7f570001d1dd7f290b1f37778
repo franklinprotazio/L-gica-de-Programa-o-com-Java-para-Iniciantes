@@ -1,0 +1,33 @@
+package exercicio3;
+
+public class Pedido {
+	
+	Integer codigo;
+	
+	Double subtotal;
+	
+	Integer desconto;
+	
+	Double total;
+	
+	Integer obterCodigo() {
+		Integer dadosPedido = codigo;
+		return dadosPedido;
+	}
+	
+	Double obterSubtoal() {
+		Double subtotalDoPedido = subtotal;
+		return subtotalDoPedido;
+	}
+	
+	Integer obterDesconto() {
+		Integer descontoAplicado = desconto;
+		return descontoAplicado;
+	}
+	
+	Double obterTotal() {
+		Double totalDoPedido = total;
+		return totalDoPedido;
+	}
+		
+}

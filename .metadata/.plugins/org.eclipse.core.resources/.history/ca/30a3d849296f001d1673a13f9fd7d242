@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Digite um numero ");
+		Integer numeroDigitadoPeloUsuario = scanner.nextInt();
+
+		multiplicador(numeroDigitadoPeloUsuario, 0);
+
+		scanner.close();
+	}
+
+
+	static void multiplicador(Integer numeroDigitadoPeloUsuario , Integer numero) {
+
+		System.out.println(numeroDigitadoPeloUsuario + " x " + numero + " = " + numeroDigitadoPeloUsuario * numero);
+		
+		++numero;
+		if (numero < 10) {
+			multiplicador(numeroDigitadoPeloUsuario, numero);
+			
+		}
+	}
+
+
+}

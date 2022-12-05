@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		String[] tarefasDoDia = new String[5];
+		
+		System.out.println(tarefasDoDia[0] = "");
+		String tarefaCadastrada = scanner.nextLine();
+		
+		System.out.println(tarefasDoDia[1] = "");
+		tarefaCadastrada = scanner.nextLine();
+		
+		System.out.println(tarefasDoDia[2] = "");
+		tarefaCadastrada = scanner.nextLine();
+		
+		System.out.println(tarefasDoDia[3] = "");
+		tarefaCadastrada = scanner.nextLine();
+		
+		System.out.println(tarefasDoDia[4] = "");
+		tarefaCadastrada = scanner.nextLine();
+		
+				
+	
+		
+		scanner.close();
+	}
+
+}

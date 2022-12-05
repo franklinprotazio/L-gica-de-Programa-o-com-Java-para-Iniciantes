@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Exercicio03 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		Integer primeiroNumeroDigitado = imprimirNaMesmaLinha("Digite um numero: ", scanner);
+
+		Integer operadorSelecionado = imprimirNaMesmaLinha(
+				"Escolha qual operador: [1] = + | [2] = - | [3] = * | [4] = / : ", scanner);
+
+		Integer segundoNumeroDigitado = imprimirNaMesmaLinha("Digite um numero: ", scanner);
+
+		Integer resultado;
+
+		calculandoOperacao(operadorSelecionado, primeiroNumeroDigitado, segundoNumeroDigitado);
+
+		scanner.close();
+	}
+
+	static Integer imprimirNaMesmaLinha(String texto, Scanner scanner) {
+		System.out.print(texto);
+		Integer numero = scanner.nextInt();
+		return numero;
+	}
+
+	static void imprimir(String texto) {
+		System.out.println(texto);
+	}
+
+	static Integer calculandoOperacao(Integer operador, Integer primeiroNumero, Integer segundoNumero) {
+		Integer resultado = null;
+
+		switch (operador) {
+		case 1:
+			resultado = primeiroNumero + segundoNumero;
+			imprimir("A soma entre os valores eh: " + resultado);
+//			break;
+		case 2:
+			resultado = primeiroNumero - segundoNumero;
+			imprimir("A subtracao entre os valores eh: " + resultado);
+//			break;
+		case 3:
+			resultado = primeiroNumero * segundoNumero;
+			imprimir("A multiplicacao entre os valores eh: " + resultado);
+//			break;
+		case 4:
+			resultado = primeiroNumero / segundoNumero;
+			imprimir("A divisao entre os valores eh: " + resultado);
+		}
+
+		return resultado;
+	}
+
+}

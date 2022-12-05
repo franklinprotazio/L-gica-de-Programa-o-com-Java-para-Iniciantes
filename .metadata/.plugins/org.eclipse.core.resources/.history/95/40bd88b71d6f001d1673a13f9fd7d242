@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+//		Integer numeroDigitadoPeloUsuario = multiplicando(scanner);
+//		
+//		imprimirTabuada(scanner);
+
+//		
+//		System.out.print("Digite um numero ");
+//		Integer numeroDigitadoPeloUsuario = scanner.nextInt();
+//
+//		Integer multiplicando = 1;
+
+//		for (int i = 0; i <= 10; i++) {
+//			System.out.println(numeroDigitadoPeloUsuario + " x " + i + " = " + (numeroDigitadoPeloUsuario * i));
+//		}
+		
+		imprimirTabuada(scanner, null);
+		
+		
+		scanner.close();
+	}
+	
+//	static Integer multiplicando(String texto, Scanner scanner) {
+//		System.out.print("Digite um numero ");
+//		Integer numeroDigitadoPeloUsuario = scanner.nextInt();
+//		
+//	}
+	
+	static void  imprimirTabuada(Scanner scanner, Integer numero) {
+			System.out.print("Digite um numero ");
+			Integer numero1 = scanner.nextInt();
+			
+			Integer resultado = 0;
+		for (int i = 0; i <= 10; i++) {
+			System.out.println(numero1 + " x " + i + " = " + numero1 * i);
+		}
+	}
+
+}

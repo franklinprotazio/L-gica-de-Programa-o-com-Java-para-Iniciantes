@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		String[] tarefasDoDia = new String[5];
+		
+		System.out.println(tarefasDoDia[0] = "");
+		String tarefaCadastrada = scanner.nextLine();
+		
+		
+				
+		for(int i = 0; i < tarefasDoDia.length; i++) {
+			System.out.println(tarefasDoDia[i]);
+		}
+		
+		
+		scanner.close();
+	}
+
+}
